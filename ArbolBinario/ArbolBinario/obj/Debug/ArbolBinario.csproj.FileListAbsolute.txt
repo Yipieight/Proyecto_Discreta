@@ -1,0 +1,9 @@
+C:\Users\ASUS\Documents\GitHub\Proyecto_Discreta\ArbolBinario\ArbolBinario\obj\Debug\ArbolBinario.csproj.AssemblyReference.cache
+C:\Users\ASUS\Documents\GitHub\Proyecto_Discreta\ArbolBinario\ArbolBinario\obj\Debug\ArbolBinario.Form1.resources
+C:\Users\ASUS\Documents\GitHub\Proyecto_Discreta\ArbolBinario\ArbolBinario\obj\Debug\ArbolBinario.csproj.GenerateResource.cache
+C:\Users\ASUS\Documents\GitHub\Proyecto_Discreta\ArbolBinario\ArbolBinario\obj\Debug\ArbolBinario.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Documents\GitHub\Proyecto_Discreta\ArbolBinario\ArbolBinario\bin\Debug\ArbolBinario.exe.config
+C:\Users\ASUS\Documents\GitHub\Proyecto_Discreta\ArbolBinario\ArbolBinario\bin\Debug\ArbolBinario.exe
+C:\Users\ASUS\Documents\GitHub\Proyecto_Discreta\ArbolBinario\ArbolBinario\bin\Debug\ArbolBinario.pdb
+C:\Users\ASUS\Documents\GitHub\Proyecto_Discreta\ArbolBinario\ArbolBinario\obj\Debug\ArbolBinario.exe
+C:\Users\ASUS\Documents\GitHub\Proyecto_Discreta\ArbolBinario\ArbolBinario\obj\Debug\ArbolBinario.pdb
