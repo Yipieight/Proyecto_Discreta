@@ -113,8 +113,8 @@ namespace ArbolBinario
 
             }
 
-            if (n.Derecha != null) MostrarNodo(n.Derecha, nuevo, "D");
-            if (n.Izquierda != null) MostrarNodo(n.Izquierda, nuevo, "I");
+            if (n.Derecha != null) MostrarNodo(n.Derecha, nuevo, "Derecha");
+            if (n.Izquierda != null) MostrarNodo(n.Izquierda, nuevo, "Izquierda");
 
         }
 
