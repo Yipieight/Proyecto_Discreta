@@ -7,3 +7,7 @@ C:\Users\ASUS\Documents\GitHub\Proyecto_Discreta\ArbolBinario\ArbolBinario\bin\D
 C:\Users\ASUS\Documents\GitHub\Proyecto_Discreta\ArbolBinario\ArbolBinario\bin\Debug\ArbolBinario.pdb
 C:\Users\ASUS\Documents\GitHub\Proyecto_Discreta\ArbolBinario\ArbolBinario\obj\Debug\ArbolBinario.exe
 C:\Users\ASUS\Documents\GitHub\Proyecto_Discreta\ArbolBinario\ArbolBinario\obj\Debug\ArbolBinario.pdb
+C:\Users\ASUS\Documents\GitHub\Proyecto_Discreta\ArbolBinario\ArbolBinario\bin\Debug\ArbolBinario.exe.manifest
+C:\Users\ASUS\Documents\GitHub\Proyecto_Discreta\ArbolBinario\ArbolBinario\bin\Debug\ArbolBinario.application
+C:\Users\ASUS\Documents\GitHub\Proyecto_Discreta\ArbolBinario\ArbolBinario\obj\Debug\ArbolBinario.exe.manifest
+C:\Users\ASUS\Documents\GitHub\Proyecto_Discreta\ArbolBinario\ArbolBinario\obj\Debug\ArbolBinario.application

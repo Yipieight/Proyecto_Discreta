@@ -151,8 +151,8 @@ namespace ArbolBinario
 
         void RecorridoPostreOrden(Nodo n)
         {
-            if (n.Izquierda != null) RecorridoInreOrden(n.Izquierda);
-            if (n.Derecha != null) RecorridoInreOrden(n.Derecha);
+            if (n.Izquierda != null) RecorridoPostreOrden(n.Izquierda);
+            if (n.Derecha != null) RecorridoPostreOrden(n.Derecha);
             Visitar(n);
         }
 

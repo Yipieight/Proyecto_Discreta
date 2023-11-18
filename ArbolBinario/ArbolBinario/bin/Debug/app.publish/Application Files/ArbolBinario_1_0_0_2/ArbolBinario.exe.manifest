@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ArbolBinario.exe" version="1.0.0.2" publicKeyToken="d3bffd71171cdd87" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ArbolBinario" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ArbolBinario.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ArbolBinario.exe" size="13208">
+      <assemblyIdentity name="ArbolBinario" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>dhp+XIqTlACSEeVjGy0YIR6y6lvd5Lk2ZWBVOYm5bgo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ArbolBinario.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=YEAH\ASUS" issuerKeyHash="7f93ce200177574135a904fd548405602c3fc3dc" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>XcPM5aZ2VnpEQKcfqJfQW0YHBRLC0laQb771ZBRcqoU=</DigestValue></Reference></SignedInfo><SignatureValue>o6cv+JVj+/iSrbrkv/8v24hgKSdkT2Tw9n9/pt7YUrvJB6GWO5gCffbV2kMuCjCIA+1SNfXdsC3DqT8Xv+fQYDXq7GX6xQK1Pj9P9YCUzNa1/3/j6hmC01KAvYEXZt2o6/7maGCzVduEGcKeIimw0JJdVnRBi7fqU+rPJk7toPg=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>3I+f8wj8JDqyZRHEHEGRS4tVQYM+qUHpp23SmvkRHdO+KXEkjlfaA0qwfme1Xgz6DoumCvebL12gYBCMVxuso3ok7rk9ed/5CkuprcTLGi9p6sVQ8zVKY0w2VK5/hwwmW4IYcPBvv9gF9nBleaO+2kMNZKa/6N2i+1bpmNvhYCE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="85aa5c1464f5be6f9056d2c2120507465bd097a81fa740447a5676a6e5ccc35d" Description="" Url=""><as:assemblyIdentity name="ArbolBinario.exe" version="1.0.0.2" publicKeyToken="d3bffd71171cdd87" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=YEAH\ASUS</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>/rTgqqo1wnNJ2t4Jym51CvndjOpn+dMA4GYDcNGjtSM=</DigestValue></Reference></SignedInfo><SignatureValue>XZ4EQVlwiOpn5YiTJbSftCdvax0F0NmISyL19BIBvSEB+u1GEQheOy7aBIdjeM3LDM4/blwnOZEJu25KKvTnOhdoUQQxfT8pGDiv4YFZmy1TtJwVoOVDPMw2eX7glO3/DGp0yTe1FfeOSTAkRv04XmACYIC2Ulhyku8w1ZdSmxo=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>3I+f8wj8JDqyZRHEHEGRS4tVQYM+qUHpp23SmvkRHdO+KXEkjlfaA0qwfme1Xgz6DoumCvebL12gYBCMVxuso3ok7rk9ed/5CkuprcTLGi9p6sVQ8zVKY0w2VK5/hwwmW4IYcPBvv9gF9nBleaO+2kMNZKa/6N2i+1bpmNvhYCE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBvTCCASagAwIBAgIQWQPm7GBkcZROf2XrxbsD5jANBgkqhkiG9w0BAQsFADAdMRswGQYDVQQDHhIAWQBFAEEASABcAEEAUwBVAFMwHhcNMjMxMTE4MDQwOTA3WhcNMjQxMTE3MTAwOTA3WjAdMRswGQYDVQQDHhIAWQBFAEEASABcAEEAUwBVAFMwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBANyPn/MI/CQ6smURxBxBkUuLVUGDPqlB6adt0pr5ER3TvilxJI5X2gNKsH5ntV4M+g6Lpgr3my9doGAQjFcbrKN6JO65PXnf+QpLqa3EyxovaerFUPM1SmNMNlSuf4cMJluCGHDwb7/YBfZwZXmjvtpDDWSmv+jdovtW6Zjb4WAhAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAkNoPSUYb+I3jBPbDKJ8QautJoUgVC8qKcGFWTsSiItWIVDB0KoOXp4XbwBVbV+S6LyZJMAkMRF7Kc2e0lk1xhxNSP9VPTlF+FiGk3LscIG1BNRf+IiuUdBM+/G0TORcYBN+THYaal+aJMhCusBJ3Brf85b6F4AByS5M2+YxvR0Q=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

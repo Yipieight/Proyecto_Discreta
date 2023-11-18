@@ -47,7 +47,7 @@
             // 
             this.button1.Location = new System.Drawing.Point(461, 26);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(132, 41);
+            this.button1.Size = new System.Drawing.Size(354, 41);
             this.button1.TabIndex = 0;
             this.button1.Text = "Agregar Raiz";
             this.button1.UseVisualStyleBackColor = true;
@@ -57,7 +57,7 @@
             // 
             this.button2.Location = new System.Drawing.Point(461, 73);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(132, 41);
+            this.button2.Size = new System.Drawing.Size(354, 41);
             this.button2.TabIndex = 1;
             this.button2.Text = "Agregar Derecha";
             this.button2.UseVisualStyleBackColor = true;
@@ -67,7 +67,7 @@
             // 
             this.button3.Location = new System.Drawing.Point(461, 120);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(132, 41);
+            this.button3.Size = new System.Drawing.Size(354, 41);
             this.button3.TabIndex = 2;
             this.button3.Text = "Agregar Izquierda";
             this.button3.UseVisualStyleBackColor = true;
@@ -77,7 +77,7 @@
             // 
             this.button4.Location = new System.Drawing.Point(461, 167);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(132, 41);
+            this.button4.Size = new System.Drawing.Size(354, 41);
             this.button4.TabIndex = 3;
             this.button4.Text = "Recorrer InOrden";
             this.button4.UseVisualStyleBackColor = true;
@@ -87,7 +87,7 @@
             // 
             this.button5.Location = new System.Drawing.Point(461, 214);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(132, 41);
+            this.button5.Size = new System.Drawing.Size(354, 41);
             this.button5.TabIndex = 4;
             this.button5.Text = "Recorrer PreoOrden";
             this.button5.UseVisualStyleBackColor = true;
@@ -97,7 +97,7 @@
             // 
             this.button6.Location = new System.Drawing.Point(461, 261);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(132, 41);
+            this.button6.Size = new System.Drawing.Size(354, 41);
             this.button6.TabIndex = 5;
             this.button6.Text = "Recorrer PostOrden";
             this.button6.UseVisualStyleBackColor = true;
@@ -120,7 +120,7 @@
             this.txtRecorrido.Location = new System.Drawing.Point(461, 315);
             this.txtRecorrido.Name = "txtRecorrido";
             this.txtRecorrido.ReadOnly = true;
-            this.txtRecorrido.Size = new System.Drawing.Size(231, 29);
+            this.txtRecorrido.Size = new System.Drawing.Size(354, 29);
             this.txtRecorrido.TabIndex = 7;
             // 
             // lblAltura
@@ -175,7 +175,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 533);
+            this.ClientSize = new System.Drawing.Size(874, 533);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.treeView1);
