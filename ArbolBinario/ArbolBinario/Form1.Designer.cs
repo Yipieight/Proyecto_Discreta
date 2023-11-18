@@ -39,6 +39,8 @@
             this.lblAltura = new System.Windows.Forms.Label();
             this.lblAncho = new System.Windows.Forms.Label();
             this.treeView1 = new System.Windows.Forms.TreeView();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
@@ -69,6 +71,7 @@
             this.button3.TabIndex = 2;
             this.button3.Text = "Agregar Izquierda";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -104,17 +107,18 @@
             // 
             this.lblNombreNodo.AutoSize = true;
             this.lblNombreNodo.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNombreNodo.Location = new System.Drawing.Point(22, 315);
+            this.lblNombreNodo.Location = new System.Drawing.Point(22, 349);
             this.lblNombreNodo.Name = "lblNombreNodo";
-            this.lblNombreNodo.Size = new System.Drawing.Size(196, 25);
+            this.lblNombreNodo.Size = new System.Drawing.Size(18, 25);
             this.lblNombreNodo.TabIndex = 6;
-            this.lblNombreNodo.Text = "Nodo seleccionado";
+            this.lblNombreNodo.Text = ".";
             this.lblNombreNodo.Click += new System.EventHandler(this.label1_Click);
             // 
             // txtRecorrido
             // 
             this.txtRecorrido.Location = new System.Drawing.Point(461, 315);
             this.txtRecorrido.Name = "txtRecorrido";
+            this.txtRecorrido.ReadOnly = true;
             this.txtRecorrido.Size = new System.Drawing.Size(231, 20);
             this.txtRecorrido.TabIndex = 7;
             // 
@@ -122,21 +126,21 @@
             // 
             this.lblAltura.AutoSize = true;
             this.lblAltura.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAltura.Location = new System.Drawing.Point(22, 352);
+            this.lblAltura.Location = new System.Drawing.Point(22, 437);
             this.lblAltura.Name = "lblAltura";
-            this.lblAltura.Size = new System.Drawing.Size(68, 25);
+            this.lblAltura.Size = new System.Drawing.Size(18, 25);
             this.lblAltura.TabIndex = 8;
-            this.lblAltura.Text = "Altura";
+            this.lblAltura.Text = ".";
             // 
             // lblAncho
             // 
             this.lblAncho.AutoSize = true;
             this.lblAncho.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAncho.Location = new System.Drawing.Point(22, 394);
+            this.lblAncho.Location = new System.Drawing.Point(22, 476);
             this.lblAncho.Name = "lblAncho";
-            this.lblAncho.Size = new System.Drawing.Size(73, 25);
+            this.lblAncho.Size = new System.Drawing.Size(18, 25);
             this.lblAncho.TabIndex = 9;
-            this.lblAncho.Text = "Ancho";
+            this.lblAncho.Text = ".";
             // 
             // treeView1
             // 
@@ -145,11 +149,33 @@
             this.treeView1.Size = new System.Drawing.Size(413, 276);
             this.treeView1.TabIndex = 10;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(22, 398);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(68, 25);
+            this.label1.TabIndex = 11;
+            this.label1.Text = "Árbol:";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(22, 315);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(196, 25);
+            this.label2.TabIndex = 12;
+            this.label2.Text = "Nodo seleccionado";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 533);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.treeView1);
             this.Controls.Add(this.lblAncho);
             this.Controls.Add(this.lblAltura);
@@ -181,5 +207,7 @@
         private System.Windows.Forms.Label lblAltura;
         private System.Windows.Forms.Label lblAncho;
         private System.Windows.Forms.TreeView treeView1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }

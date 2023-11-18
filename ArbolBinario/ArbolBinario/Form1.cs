@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics.Eventing.Reader;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -13,12 +14,14 @@ namespace ArbolBinario
 {
     public partial class Form1 : Form
     {
-        Nodo raiz;
-        Nodo seleccionado;
+
         public Form1()
         {
             InitializeComponent();
         }
+
+        Nodo raiz;
+        Nodo seleccionado;
 
         Nodo crearNodo()
         {
@@ -65,13 +68,14 @@ namespace ArbolBinario
                 {
                     raiz = crearNodo();
                 }
-                else
-                {
-                    raiz = crearNodo();
-                }
+            }
+            else
+            {
+                raiz = crearNodo();
+            }
                 CambiarSeleccion(raiz);
                 LlenarTreeView();
-            }
+            
         }
 
         void CambiarSeleccion(Nodo n)
@@ -94,6 +98,13 @@ namespace ArbolBinario
 
             TreeNode nuevo = new TreeNode();
             if (tnpadre == null && lado == string.Empty)
+            {
+                tnpadre = new TreeNode();
+                nuevo.Text = n.Nombre;
+                nuevo.Tag = n;
+                treeView1.Nodes.Add(nuevo);
+            }
+            else
             {
                 nuevo.Text = $"{lado} - {n.Nombre}";
                 nuevo.Tag = n;
@@ -158,6 +169,17 @@ namespace ArbolBinario
         private void button6_Click(object sender, EventArgs e)
         {
             RecorridoPostreOrden(raiz);
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if (seleccionado != null)
+            {
+                seleccionado.Izquierda = crearNodo();
+                LlenarTreeView();
+            }
+            else
+                MessageBox.Show("Debe tener algun nodo seleccionado");
         }
     }
 }
