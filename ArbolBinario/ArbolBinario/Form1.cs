@@ -63,7 +63,7 @@ namespace ArbolBinario
         {
             if (raiz != null)
             {
-                DialogResult r = MessageBox.Show("Se eliminará el árbol desea continuar?", "consulta");
+                DialogResult r = MessageBox.Show("Se eliminará el árbol desea continuar?", "consulta", MessageBoxButtons.YesNo);
                 if (r == DialogResult.Yes)
                 {
                     raiz = crearNodo();
@@ -73,8 +73,8 @@ namespace ArbolBinario
             {
                 raiz = crearNodo();
             }
-                CambiarSeleccion(raiz);
-                LlenarTreeView();
+            CambiarSeleccion(raiz);
+            LlenarTreeView();
             
         }
 
@@ -163,11 +163,13 @@ namespace ArbolBinario
 
         private void button4_Click(object sender, EventArgs e)
         {
+            this.txtRecorrido.Text = string.Empty;
             RecorridoInreOrden(raiz);
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
+            this.txtRecorrido.Text = string.Empty;
             RecorridoPostreOrden(raiz);
         }
 
@@ -180,6 +182,11 @@ namespace ArbolBinario
             }
             else
                 MessageBox.Show("Debe tener algun nodo seleccionado");
+        }
+
+        private void treeView1_AfterSelect(object sender, TreeViewEventArgs e)
+        {
+            CambiarSeleccion((Nodo)e.Node.Tag);
         }
     }
 }
