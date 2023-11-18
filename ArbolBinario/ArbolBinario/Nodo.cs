@@ -6,7 +6,16 @@ using System.Threading.Tasks;
 
 namespace ArbolBinario
 {
-    internal class Nodo
+    public class Nodo
     {
+        public string Nombre { get; set; }
+
+        public Nodo(string nombre)
+        {
+            Nombre = nombre;
+        }
+
+        public Nodo Derecha { get; set; }
+        public Nodo Izquierda { get; set; }
     }
 }
